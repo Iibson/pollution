@@ -1,5 +1,5 @@
 {application, pollution,
- [{description, "An OTP application"},
+ [{description, "pollution server, erlang course AGH"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {pollution_app, []}},
@@ -8,7 +8,7 @@
     stdlib
    ]},
   {env,[]},
-  {modules, []},
+  {modules, [pollution, pollution_gen_server]},
 
   {licenses, ["Apache 2.0"]},
   {links, []}
