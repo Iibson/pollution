@@ -8,7 +8,7 @@
     stdlib
    ]},
   {env,[]},
-  {modules, [pollution, pollution_gen_server]},
+  {modules, [pollution, pollution_gen_server, pollution_value_collector_gen_statem]},
 
   {licenses, ["Apache 2.0"]},
   {links, []}
