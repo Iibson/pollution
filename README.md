@@ -1,7 +1,8 @@
 pollution
 =====
 
-An OTP application
+About:
+    pollution server, erlang course AGH
 
 Build
 -----
